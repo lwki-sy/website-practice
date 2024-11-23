@@ -1,0 +1,50 @@
+*{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display:flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+
+    
+    padding: 20px 80px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-right{
+    display:flex;
+    gap: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-1{
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+    display:flex;
+    padding: 100px 0;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#main-image{
+    width: 500px;
+    height:160px;
+
+    display:flex;
+    flex-shrink: 0;
+}
+
+
